@@ -53,6 +53,8 @@ def get_sql_dataframe(table_name: str, uuid: str) -> None:
 user_id = init_user_id()
 st.write(user_id)
 
+create_table("ideas")
+
 # --- USER INTERACTION ---
 user_message = st.chat_input("Send a message")
 if user_message:
