@@ -1,8 +1,6 @@
 import os
 import streamlit as st
 import openai
-import constants as c
-from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 import uuid
 from datetime import datetime, timedelta
